@@ -11,7 +11,7 @@ public class AvionReentrantLock extends Avion {
     
     private final AeroportReentrantLock aeroport;
     
- AvionReentrantLock(String identifiant, boolean estArrivee, AeroportReentrantLock aeroport) {
+ public AvionReentrantLock(String identifiant, boolean estArrivee, AeroportReentrantLock aeroport) {
         super(identifiant, estArrivee); // Appel du constructeur parent
         this.aeroport = aeroport;
     }

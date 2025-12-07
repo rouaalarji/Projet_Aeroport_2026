@@ -43,7 +43,7 @@ public class Avion extends Thread {
     }
     
     
-    
+    //ralentir
     public void simulerAction(int duree) {
         try {
             Thread.sleep(duree);

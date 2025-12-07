@@ -115,7 +115,7 @@ public class AeroportSemaphore {
             Logger.warning(avionId + " cherche une porte " +
                            "(Portes libres: " + portes.availablePermits() + "/" + NB_PORTES_TOTAL + ")");
             
-            portes.acquire();
+            portes.acquire(); 
             
             Logger.success(avionId + " a obtenu une porte " +
                            "(Portes restantes: " + portes.availablePermits() + "/" + NB_PORTES_TOTAL + ")");
